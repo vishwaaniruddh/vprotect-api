@@ -1,0 +1,871 @@
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-10 11:28:21
+METHOD: POST
+CONTENT_LENGTH: 960343
+CONTENT_TYPE: multipart/form-data; boundary=72be6161-e9f1-48a8-ad06-5f0cf5ce99fb
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => video.mp4
+            [full_path] => video.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/php05t8mp7fofiudRWLshZ
+            [error] => 0
+            [size] => 960014
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-10 12:35:26
+METHOD: POST
+CONTENT_LENGTH: 953879
+CONTENT_TYPE: multipart/form-data; boundary=8e993be7-7405-4e2d-850c-b52ef614af73
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => video.mp4
+            [full_path] => video.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/phpseahv07tdv8reD00Sq9
+            [error] => 0
+            [size] => 953550
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-10 12:39:35
+METHOD: POST
+CONTENT_LENGTH: 955463
+CONTENT_TYPE: multipart/form-data; boundary=6e2a3ebb-4584-4696-8455-e4b018a72728
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => video.mp4
+            [full_path] => video.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/phpi7itrroitacj20AJ5FU
+            [error] => 0
+            [size] => 955134
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-12 15:58:30
+METHOD: POST
+CONTENT_LENGTH: 294
+CONTENT_TYPE: multipart/form-data; boundary=--------------------------141888447335325897831716
+POST: Array
+(
+    [userid] => 26
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-12 15:59:49
+METHOD: POST
+CONTENT_LENGTH: 1269700
+CONTENT_TYPE: multipart/form-data; boundary=--------------------------282945871602098346816486
+POST: Array
+(
+    [userid] => 26
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => WhatsApp Video 2026-08-12 at 3.59.18 PM.mp4
+            [full_path] => WhatsApp Video 2026-08-12 at 3.59.18 PM.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/phpbl5s7d9d6d9o9aML0EX
+            [error] => 0
+            [size] => 1269338
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-12 16:00:49
+METHOD: POST
+CONTENT_LENGTH: 1269700
+CONTENT_TYPE: multipart/form-data; boundary=--------------------------986769633021441637450449
+POST: Array
+(
+    [userid] => 26
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => WhatsApp Video 2026-08-12 at 3.59.18 PM.mp4
+            [full_path] => WhatsApp Video 2026-08-12 at 3.59.18 PM.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/phpgk2sudjdd932dEejTyH
+            [error] => 0
+            [size] => 1269338
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-12 18:27:14
+METHOD: POST
+CONTENT_LENGTH: 1269700
+CONTENT_TYPE: multipart/form-data; boundary=--------------------------308472697192400556810453
+POST: Array
+(
+    [userid] => 26
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => WhatsApp Video 2026-08-12 at 3.59.18 PM.mp4
+            [full_path] => WhatsApp Video 2026-08-12 at 3.59.18 PM.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/php8pouupj7bk60fBh0ir6
+            [error] => 0
+            [size] => 1269338
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-12 18:28:14
+METHOD: POST
+CONTENT_LENGTH: 1269700
+CONTENT_TYPE: multipart/form-data; boundary=--------------------------068750579865350595318708
+POST: Array
+(
+    [userid] => 26
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => WhatsApp Video 2026-08-12 at 3.59.18 PM.mp4
+            [full_path] => WhatsApp Video 2026-08-12 at 3.59.18 PM.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/phphukms51mgkp3fr3Tuke
+            [error] => 0
+            [size] => 1269338
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-12 19:41:56
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=7ae2d8e4-ba9d-4c35-82e6-22db2dc103f1
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-12 19:42:17
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=c1b56c0e-a313-4f47-bb9d-8f32da58d775
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-12 20:12:12
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=00713e8c-2250-4df7-a8c2-3819f3636f0a
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-12 20:12:26
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=58c446b3-6c50-47bd-a69f-001fb29b40ac
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-12 20:12:39
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=97536c84-adc8-4dc9-8228-1560ab5f14a4
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-13 11:25:01
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=2c400cfe-e7ce-4054-99b9-66b99e47079b
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-13 11:26:13
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=b77499f7-c1bf-4d99-b93a-c5f3911251f4
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-13 13:09:02
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=f27e4d36-a8aa-4dac-b698-a306829587a9
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-13 16:37:12
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=0d74c257-595b-4868-b240-efbdc04fec04
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-13 16:40:35
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=01363dbb-4c2a-45ba-a6c5-7bc4fcc42fce
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-13 18:17:42
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=5c03d3bf-45b6-4c3a-9744-55b2337d3562
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-14 12:06:33
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=d7c9be05-19cd-4095-8521-5a64662b4e3f
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-14 14:12:48
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=95af8cce-4325-4f8a-ab9d-22ecf588e63c
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 11:34:41
+METHOD: POST
+CONTENT_LENGTH: 1269700
+CONTENT_TYPE: multipart/form-data; boundary=--------------------------215103165584939072905851
+POST: Array
+(
+    [userid] => 26
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => WhatsApp Video 2026-08-12 at 3.59.16 PM.mp4
+            [full_path] => WhatsApp Video 2026-08-12 at 3.59.16 PM.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/php134qqp1isl6lcGwDX1D
+            [error] => 0
+            [size] => 1269338
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 11:35:42
+METHOD: POST
+CONTENT_LENGTH: 1269700
+CONTENT_TYPE: multipart/form-data; boundary=--------------------------445438834735290718655566
+POST: Array
+(
+    [userid] => 26
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => WhatsApp Video 2026-08-12 at 3.59.16 PM.mp4
+            [full_path] => WhatsApp Video 2026-08-12 at 3.59.16 PM.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/phppvev3h6b1i2rbWwBfNK
+            [error] => 0
+            [size] => 1269338
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 12:13:07
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=17d8ebe6-e129-4410-ac5b-a4dc84bdecdf
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 12:23:13
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=fae2198d-63dc-4161-9491-53a03a72131b
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 12:23:53
+METHOD: POST
+CONTENT_LENGTH: 163
+CONTENT_TYPE: multipart/form-data; boundary=--------------------------879065682166192220918348
+POST: Array
+(
+    [userid] => 26
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 12:41:14
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=f8cf0cf3-573a-4718-b5d8-a2321472e911
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 12:43:10
+METHOD: POST
+CONTENT_LENGTH: 163
+CONTENT_TYPE: multipart/form-data; boundary=--------------------------557608971672378995691212
+POST: Array
+(
+    [userid] => 26
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 12:44:33
+METHOD: POST
+CONTENT_LENGTH: 163
+CONTENT_TYPE: multipart/form-data; boundary=--------------------------617240551892263280162208
+POST: Array
+(
+    [userid] => 26
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 13:24:52
+METHOD: POST
+CONTENT_LENGTH: 952279
+CONTENT_TYPE: multipart/form-data; boundary=41939c45-b239-4e75-bba9-bc54865be141
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => video.mp4
+            [full_path] => video.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/phptj9ua3gs9rh9fGjeXSL
+            [error] => 0
+            [size] => 951950
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 14:26:03
+METHOD: POST
+CONTENT_LENGTH: 931463
+CONTENT_TYPE: multipart/form-data; boundary=38bc24a2-012d-4481-ab96-d8a2e073277e
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => video.mp4
+            [full_path] => video.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/phpk9fuk1uankiu2bQHDo0
+            [error] => 0
+            [size] => 931134
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 14:34:06
+METHOD: POST
+CONTENT_LENGTH: 938455
+CONTENT_TYPE: multipart/form-data; boundary=d9f4ea17-dbae-4f55-b0f5-1936d6598df1
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => video.mp4
+            [full_path] => video.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/phpem6d82eno1vo4NuoNlE
+            [error] => 0
+            [size] => 938126
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 14:37:24
+METHOD: POST
+CONTENT_LENGTH: 154
+CONTENT_TYPE: multipart/form-data; boundary=5540bb2a-8434-4cae-9652-c9af4cde2a9c
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 14:55:54
+METHOD: GET
+CONTENT_LENGTH: 
+CONTENT_TYPE: 
+POST: Array
+(
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 16:03:11
+METHOD: POST
+CONTENT_LENGTH: 941255
+CONTENT_TYPE: multipart/form-data; boundary=d9a1c67b-cad7-447c-b3f4-3afa9fb6083e
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => video.mp4
+            [full_path] => video.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/phpdgnftg6i05kcfuiviGC
+            [error] => 0
+            [size] => 940926
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 16:07:08
+METHOD: POST
+CONTENT_LENGTH: 968055
+CONTENT_TYPE: multipart/form-data; boundary=df23d6dc-aabf-4690-92d7-87429354ccb5
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => video.mp4
+            [full_path] => video.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/phpc69ibjghv2mm4QrXD5C
+            [error] => 0
+            [size] => 967726
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 16:12:49
+METHOD: POST
+CONTENT_LENGTH: 938071
+CONTENT_TYPE: multipart/form-data; boundary=8021b8e4-72a8-4ef2-91e2-7181610937b9
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => video.mp4
+            [full_path] => video.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/phpba5t2tnfj1kh3CMePyf
+            [error] => 0
+            [size] => 937742
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 16:25:01
+METHOD: POST
+CONTENT_LENGTH: 922775
+CONTENT_TYPE: multipart/form-data; boundary=e81ef85b-07c9-4ba6-9c8e-baf61412ce73
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => video.mp4
+            [full_path] => video.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/phpjg4os75gre5b8n6DUPs
+            [error] => 0
+            [size] => 922446
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 16:48:22
+METHOD: POST
+CONTENT_LENGTH: 942503
+CONTENT_TYPE: multipart/form-data; boundary=a142df78-5b51-4064-89dc-5add509263f4
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => video.mp4
+            [full_path] => video.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/php043lp08n3sbk9ahTHeO
+            [error] => 0
+            [size] => 942174
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-17 16:56:48
+METHOD: POST
+CONTENT_LENGTH: 956775
+CONTENT_TYPE: multipart/form-data; boundary=1b8a46a5-a09f-4e8c-8479-73e4f8f67205
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => video.mp4
+            [full_path] => video.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/phptuiafocrum015mch8dS
+            [error] => 0
+            [size] => 956446
+        )
+
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-26 16:40:54
+METHOD: POST
+CONTENT_LENGTH: 163
+CONTENT_TYPE: multipart/form-data; boundary=--------------------------483336828967648347573851
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+)
+
+
+
+========== NEW REQUEST ==========
+TIME: 2026-08-26 16:44:59
+METHOD: POST
+CONTENT_LENGTH: 1269700
+CONTENT_TYPE: multipart/form-data; boundary=--------------------------198653207088911155279415
+POST: Array
+(
+    [userid] => 21
+)
+
+FILES: Array
+(
+    [detect_person_video] => Array
+        (
+            [name] => WhatsApp Video 2026-08-12 at 3.59.18 PM.mp4
+            [full_path] => WhatsApp Video 2026-08-12 at 3.59.18 PM.mp4
+            [type] => video/mp4
+            [tmp_name] => /tmp/php8lmfactc0kmfaqmVo5B
+            [error] => 0
+            [size] => 1269338
+        )
+
+)
+

@@ -1,0 +1,15 @@
+.table-scroll{
+    overflow-x: scroll;
+}
+
+/* Panel ID Search - Highlight & Dim styles */
+tr.panel-search-highlight {
+    background-color: #d1fae5 !important;
+    border-left: 4px solid #10b981 !important;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+
+tr.panel-search-dim {
+    display: none;
+}

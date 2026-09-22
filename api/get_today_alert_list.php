@@ -1,0 +1,151 @@
+<?php session_start();
+
+include(__DIR__ . '/config/config.php'); 
+header('Access-Control-Allow-Origin: *');
+header('Content-Type: application/json');
+
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+$response = [];
+
+// var_dump($_SESSION);
+$user_role = $_SESSION['user_role'] ?? '';
+$userid    = $_SESSION['user_id'] ?? '';
+
+if (!$user_role || !$userid) {
+    echo json_encode([
+        'Code' => 401,
+        'msg'  => 'Unauthorized access'
+    ]);
+    exit;
+}
+
+// 🔹 BASE QUERY
+$query = "
+SELECT 
+    a.id,
+    a.user_id,
+    a.type_access,
+    a.requested_at,
+    a.requested_status,
+    a.remark,
+    a.updated_at,
+    a.latitude,
+    a.longitude,
+    a.location,
+    a.panel_id,
+
+    u.name AS username,
+    u.contact_no,
+    u.email_id,
+
+    bd.branch_name,
+    bd.branch_code
+
+FROM alert_otp_request a
+
+LEFT JOIN user_login u 
+    ON u.id = a.user_id
+
+LEFT JOIN bm_panel_mapping bpm 
+    ON bpm.panel_id = a.panel_id
+
+LEFT JOIN branch_details bd 
+    ON bd.id = bpm.branch_manager_id
+
+WHERE 
+    a.requested_at >= CURDATE()
+    AND a.requested_at < CURDATE() + INTERVAL 1 DAY
+";
+
+
+if ($user_role == 8) {
+
+    // get branch id
+    $branch_sql = mysqli_query($con, "SELECT id FROM branch_details WHERE created_user_id='$userid'");
+    $branch_data = mysqli_fetch_assoc($branch_sql);
+
+    if (!$branch_data) {
+        echo json_encode([
+            'Code' => 204,
+            'msg'  => 'No branch assigned to this user',
+            'data' => []
+        ]);
+        exit;
+    }
+
+    $branch_id = $branch_data['id'];
+
+    // check if mapping exists
+    $check_mapping = mysqli_query($con, "SELECT 1 FROM bm_panel_mapping WHERE branch_manager_id='$branch_id' LIMIT 1");
+
+    if (mysqli_num_rows($check_mapping) == 0) {
+        echo json_encode([
+            'Code' => 204,
+            'msg'  => 'No panel assigned to this branch manager',
+            'data' => []
+        ]);
+        exit;
+    }
+
+    // apply filter
+    $query .= " AND bpm.branch_manager_id = '$branch_id'";
+}
+
+// 🔹 FINAL ORDER
+$query .= " ORDER BY a.id DESC";
+
+// 🔹 EXECUTE
+$result = mysqli_query($con, $query);
+
+if (!$result) {
+    echo json_encode([
+        'Code' => 500,
+        'msg'  => 'Database error',
+        'error'=> mysqli_error($con)
+    ]);
+    exit;
+}
+
+// 🔹 RESPONSE BUILD
+$data = [];
+
+while ($row = mysqli_fetch_assoc($result)) {
+    $branch_code = $row['branch_code']; 
+    $branch_name = '';
+    $get_branch_name = mysqli_query($con,"Select * from branch_code where branch_code='".$branch_code."' and status=1 order by id desc limit 1 ");
+    if($get_branch_name_result = mysqli_fetch_assoc($get_branch_name)){
+        $branch_name = $get_branch_name_result['branch_name'];
+    }
+    
+    
+    $data[] = [
+        'alertid'           => $row['id'],
+        'userid'            => $row['user_id'],
+        'username'          => $row['username'],
+        'usercontact_no'    => $row['contact_no'],
+        'user_emailid'      => $row['email_id'],
+        'access_type'       => $row['type_access'],
+        'requested_at'      => $row['requested_at'],
+        'requested_status'  => $row['requested_status'],
+        'remark'            => $row['remark'],
+        'updated_at'        => $row['updated_at'],
+        'latitude'          => $row['latitude'],
+        'longitude'         => $row['longitude'],
+        'location'          => $row['location'],
+        'panel_id'          => $row['panel_id'],
+        'branch_name'=>$branch_name,
+        'branch_manager_name'       => $row['branch_name'],
+        'branch_code'       => $row['branch_code']
+    ];
+}
+
+// 🔹 FINAL OUTPUT
+echo json_encode([
+    'Code' => count($data) > 0 ? 200 : 204,
+    'msg'  => count($data) > 0 
+                ? 'Alert List fetched successfully' 
+                : 'No data found',
+    'data' => $data
+]);
